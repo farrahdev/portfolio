@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Responsiveness-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Farrah's Website</title>
+                   
+        <!--FontAwesome API-->
+        <link rel="stylesheet" 
+              href="https://pro.fontawesome.com/releases/
+                    v5.10.0/css/all.css" 
+              integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35
+                    dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+              crossorigin="anonymous"/>
+    
+        <!--Google Fonts API-->
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Solway:400,700|
+                    Source+Code+Pro:200,700&display=swap">
+
+        <!--General CSS-->
+        <link rel="stylesheet" 
+              href="css/style.css">
+    
+      </head>
+
+    <body>
+      <header>
+        <!--TOP LOGO-->
+        <div class="logo">
+          <img src="assets/logo colored.png" alt="">
+        </div>
+
+        <!--HAMBURGER MENU-->
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="boiga"></span>
+        </button>
+
+        <!--NAV IN HAMBURGER MENU-->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--INTRO-->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I'm <strong>Farrah!</strong>
+        </h1>
+
+        <p class="section__subtitle section__subtitle--intro">
+            UI Design Student @ NEU</p>
+
+        <img src="assets/farrah.png" alt="that's me!" class="intro__img">
+      </section>
+
+      <!--SERVICES -->
+      <section class="my-services" id="services">
+
+        <h2 class="section__title section__title--services">What I do</h2>
+
+        <!--every service-->
+        <div class="services">
+         
+           <!--design-->
+          <div class="service">
+            <h3>GRAPHICS</h3>
+            <p>Most comfortable with <font color="#85D5C3">2D layouts</font>, but
+              I can also do <font color="#85D5C3">photo</font>/<font color="#85D5C3">video</font> editing, 
+              <font color="#85D5C3">3D mockups</font>, <font color="#85D5C3">illustrations</font>,
+              <font color="#85D5C3">logos</font>, and <font color="#85D5C3">typography</font>.
+            </p>
+          </div>
+
+           <!--prototyping-->
+          <div class="service">
+            <h3>UI DESIGN</h3>
+            <p>Comfortable in prototyping apps such as <font color="#85D5C3">Figma</font> and
+                website builders like <font color="#85D5C3">Carrd</font>. 
+            </p>
+          </div>
+
+           <!--front-end development-->
+          <div class="service">
+            <h3>PROGRAMMING</h3>
+            <p>New to front end, but learning every day!
+               Currently doing lots of experimenting with <font color="#85D5C3">HTML</font>, 
+               <font color="#85D5C3">CSS</font>, and <font color="#85D5C3">JavaScript</font>.
+            </p>
+          </div>
+        </div>
+
+        <!--work button-->
+        <a href="#work" class="btn">Check out my work!</a>
+      </section>
+
+      <!--ABOUT-->
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who Am I?</h2>
+        <p class="section__subtitle section__subtitle--about">ENTP × 7w8 × ILE × sp/so</p>
+
+        <!--short bio-->
+        <div class="about-me__body">
+          <p>Nice to meet you! My name is <b><i>Farrah</i></b> and I'm originally from <b><i>Queens, New York</i></b>.
+            I'm currently an <b><i>Interaction Design</i></b> student at <b><i>Northeastern University</i></b>, where I've
+            found my life passion.
+          </p>
+
+          <p><i>Some other things I love</i>:
+             exploring new places, digital art, building custom keyboards,
+              video games, making espresso drinks, taekwondo,
+              street photography, psychology, fashion
+          </p>
+
+          <p><i>Music I vibe with</i>:
+              <a href="https://www.youtube.com/watch?v=0wv9jHT-DMA" target="_blank">Diamonds + and Pearls</a> ♩ 
+              <a href="https://www.youtube.com/watch?v=OfG97e-4YXE" target="_blank">tomorrow tonight</a> ♫
+              <a href="https://www.youtube.com/watch?v=9HBQgzzE734" target="_blank">Your Soul</a> ♪ 
+              <a href="https://www.youtube.com/watch?v=GBUAez6w5ec" target="_blank">always</a> ♬</p>
+            
+        </div>
+
+        <img src="assets/farrah.png" alt="hey it's me!" class="about-me__img">
+      </section>
+
+
+      <!--WORK-->
+      <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle--work">A mixed bag of personal, client, and school work!</p>
+          
+
+          <div class="portfolio">
+
+             <!--TYPEFACE POSTERS-->
+            <a href="a" class="portfolio__item">
+              <img src="assets/icons/01-type-posters.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--OBJEKT MAGAZINE-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/02-objekt.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--CSA APPAREL-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/03-csa-apparel.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--DECLARATION-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/04-declaration.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--BTS JIN ILLUSTRATION-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/05-jin.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--NICHIJOU UI DESIGN-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/06-nichijou.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--SPOTIFY ALBUMS-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/07-spotify.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--CSA MURDER MYSTERY-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/08-csa-murder.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--POETRY TYPESETTING-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/09-poetry.png" alt="" class="portfolio__img">
+            </a>
+            
+             <!--INFERNO CONCEPT POSTERS-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/10-inferno.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--CRYSTAL GOBLET BOOKLET-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/11-crystal-goblet.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--TYPE SPECIMEN GOTHAM NARROW-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/12-type-specimen.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--SOVEREIGN UI DESIGN-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/13-sovereign.png" alt="" class="portfolio__img">
+            </a>            
+            
+             <!--ENVIRONMENTAL DESIGN-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/14-env-design.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--SIDDHARTHA BOOKLET-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/15-book-design.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--CSA CULTURE SHOW-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/16-csa-culture-show.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--LOGOTYPE-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/17-logos.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--TERRALOVE BRAND DESIGN-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/18-terralove.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--CSA OPEN MIC NIGHT-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/19-csa-open-mic-night.png" alt="" class="portfolio__img">
+            </a>
+
+             <!--WORD TYPESETTING-->
+             <a href="a" class="portfolio__item">
+              <img src="assets/icons/20-type-setting.png" alt="" class="portfolio__img">
+            </a>
+          </div>
+      </section>
+
+      <!--FOOTER-->
+      <footer class="contact" id="contact">
+          <h3>Let's talk!</h3>
+
+          <li class="social-list">
+              <!--EMAIL-->
+              <a class="social-list__link" href="mailto:chow.fa@northeastern.edu" target="_blank">
+                <img src="assets/FA-email.svg">
+              </a>
+
+              <!--GITHUB-->
+              <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
+                <img src="assets/FA-github.svg">
+              </a>
+
+              <!--LINKEDIN-->
+              <a class="social-list__link" href="https://linkedin.com/in/farrahchow" target="_blank">
+                <img src="assets/FA-linkedin.svg">
+              </a>
+
+              <!--RESUME-->
+              <a class="social-list__link" 
+              href="https://drive.google.com/file/d/1HUmX-ldci39KNBUoldrYDmQlSBErQOen/view?usp=sharing" target="_blank">
+                    <img src="assets/FA-resume.svg">
+              </a>
+
+            </li>
+
+            <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
+
+      </footer>
+
+      <!--Run JavaScript-->
+      <script src="js/script.js"></script>
+
+    </body>
+
+</html>
