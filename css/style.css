@@ -440,11 +440,11 @@ header {
   font-family: var(--ff-secondary);
 }
 
-/*grid-template-columns: repeat(auto-fit,minmax(200px, 0px));*/
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px, 0px));
-  min-width: 400px;
+  min-width: 200px;
+  overflow-x: hidden;
 }
 
 .portfolio__item {
