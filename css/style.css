@@ -504,11 +504,10 @@ footer {
 
 /*modifies each icon*/
 .social-list__link {
-  padding: .5em;
-  /*size: 10%;*/
-  height: 4%;
-  min-width: 8%; /*fix later*/
-  max-width: 9%;
+  padding: .8em .5em;
+  height: 3%;
+  min-width: 6%;
+  max-width: 8%;
 }
 
 /*modifies each portfolio item*/
