@@ -440,9 +440,11 @@ header {
   font-family: var(--ff-secondary);
 }
 
+/*grid-template-columns: repeat(auto-fit,minmax(200px, 0px));*/
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px, 0px));
+  min-width: 400px;
 }
 
 .portfolio__item {
@@ -505,9 +507,7 @@ footer {
 /*modifies each icon*/
 .social-list__link {
   padding: .8em .5em;
-  height: 3%;
-  min-width: 6%;
-  max-width: 8%;
+  max-height: 10%;
 }
 
 /*modifies each portfolio item*/
