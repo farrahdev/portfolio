@@ -61,9 +61,6 @@ html {
 
 /*Background Styles*/
 body {
-  background-image: url(.../assets/dotboard.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   background: var(--clr-light);
   color: var(--clr-dark);
   margin: 0;
@@ -71,6 +68,14 @@ body {
   font-size: var(--fs-body);
   line-height: 1.6;
 }
+
+/*omitted style - dot board as a background
+
+  background: url(.../assets/dotboard.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  */
 
 section {
   padding: 4em 2em;
@@ -92,6 +97,7 @@ strong {
   outline-offset: 2px;
 }
 
+/*work button*/
 .btn {
   display: inline-block;
   padding: .5em 2.5em;
@@ -111,7 +117,7 @@ strong {
   transform: scale(1.1);
 }
 
-/*top button*/
+/*back to top button*/
 .myBtn {
   display: inline-block;
   padding: .5em 2.5em;
@@ -164,6 +170,7 @@ h3 {font-size: var(--fs-h3) }
   font-size: var(--fs-h3);
 }
 
+/*makes the buzz words fancy*/
 .section__subtitle--intro,
 .section__subtitle--about {
   background: var(--clr-accent);
@@ -182,10 +189,12 @@ header {
   padding: 1em;
 }
 
+/*logo at the top left*/
 .logo {
   max-width: 100px;
 }
 
+/*nav bar styles*/
 .nav {
   position: fixed;
   background: var(--clr-dark);
@@ -242,6 +251,7 @@ header {
   position: fixed;
 }
 
+/*x icon when you click the burger*/
 .nav-open .boiga {
   transform: rotate(.625turn);
 }
@@ -254,7 +264,7 @@ header {
   opacity: 0;
 }
 
-/*HAMBOIGA MENU*/
+/*HAMBURGER MENU*/
 .boiga {
   display: block;
   position: relative;
@@ -495,20 +505,23 @@ footer {
 /*modifies each icon*/
 .social-list__link {
   padding: .5em;
-  size: 10%;
+  /*size: 10%;*/
   height: 4%;
-  width: 4%;
+  min-width: 8%; /*fix later*/
+  max-width: 9%;
 }
 
 /*modifies each portfolio item*/
 .portfolio-item-individual {
-  padding: 0 2em 2em;
-  max-width: 1000px;
+  padding: 2em 2em 2em;
   margin: 0 auto;
+  max-width: 700px;
 }
 
 .portfolio-item-individual p {
-  max-width: 800px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  padding: 2em;
+  font-family: var(--ff-secondary);
 }
