@@ -7,14 +7,14 @@ navToggle.addEventListener('click', () => {
     document.body.classList.toggle('nav-open');
 })
 
-navItems.forEach ( item => {
+navItems.forEach(item => {
     item.addEventListener('click', () => {
         document.body.classList.remove('nav-open')
     });
 });
 
 /*when user scrolls down 200px*/
-window.onscroll = function() {
+window.onscroll = function () {
     scrollFunction()
 };
 

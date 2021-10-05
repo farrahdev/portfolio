@@ -423,6 +423,10 @@ header {
     position: relative;
     z-index: 2;
   }
+
+  .fancy-link {
+    color: var(--clr-accent);
+  }
 }
 
 /*MY WORK*/
@@ -440,23 +444,44 @@ header {
   font-family: var(--ff-secondary);
 }
 
-/*grid-template-columns: repeat(auto-fit,minmax(200px, 0px));*/
+/*
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(200px, 0px));
   min-width: 100px;
-  overflow-x: hidden;
+  overflow-x: hidden; 
+}*/
+
+/*responsive grid template*/
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio__item {
   background: var(--clr-accent);
-  overflow: hidden;
+  flex: 14%;
+  max-width: 14%;
 }
 
 .portfolio__img {
   transition: 
     transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
+}
+
+@media (max-width: 800px) {
+  .portfolio {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 .portfolio__item:focus {
