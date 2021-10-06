@@ -52,8 +52,6 @@
   }
 }
 
-/*GENERAL STYLES*/
-
 /*Smooth scrolling*/
 html {
   scroll-behavior: smooth;
@@ -153,6 +151,7 @@ h1 {font-size: var(--fs-h1) }
 h2 {font-size: var(--fs-h2) }
 h3 {font-size: var(--fs-h3) }
 
+/*intro*/
 .section__title {
   margin-bottom: .25em;
 }
@@ -209,6 +208,7 @@ header {
   transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
+/*items inside hamburger menu*/
 .nav__list {
   list-style: none;
   display: flex;
@@ -455,7 +455,7 @@ header {
   overflow-x: hidden; 
 }*/
 
-/*responsive grid template*/
+/*grid template*/
 
 /*container*/
 .portfolio {
