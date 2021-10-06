@@ -356,8 +356,6 @@ header {
   width: 2em;
   height: 1px;
   margin: 0.5em auto 1em;
-  background: var(--clr-light);
-  opacity: 0.25;
 }
 
 .services {
@@ -369,6 +367,7 @@ header {
   margin: 0 auto;
   font-family: var(--ff-secondary);
   text-align:left;
+  margin-bottom: 2em;
 }
 
 @media (min-width: 800px) {
@@ -403,6 +402,7 @@ header {
       "text img";
     grid-column-gap: 2em;
   }
+}
 
   .section__title--about {
     grid-area: title;
@@ -427,7 +427,10 @@ header {
   .fancy-link {
     color: var(--clr-accent);
   }
-}
+
+  .fancy-link:active {
+    color: var(--clr-dark);
+  }
 
 /*MY WORK*/
 
@@ -453,6 +456,8 @@ header {
 }*/
 
 /*responsive grid template*/
+
+/*container*/
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -501,19 +506,19 @@ footer {
   background-color: var(--clr-light);
   color: var(--clr-accent);
   text-align: center;
-  padding: 2.5em 0;
+  padding: 2em 0;
   font-size: var(--fs-h3);
 }
 
 .footer a { 
-  color: inherit;
+  color: var(--clr-accent);
   text-decoration: none;
 }
 
 .footer__link:hover,
 .social-list__link:hover {
   color: var(--clr-accent);
-  opacity:.55;
+  opacity:.5;
 }
 
 .footer__link:hover {
@@ -527,7 +532,7 @@ footer {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: .2em;
+  margin-top: 1em;
 }
 
 /*modifies each icon*/
@@ -541,12 +546,14 @@ footer {
   padding: 2em 2em 2em;
   margin: 0 auto;
   max-width: 700px;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
 
 .portfolio-item-individual p {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  padding: 2em;
   font-family: var(--ff-secondary);
+  margin: 2em;
 }

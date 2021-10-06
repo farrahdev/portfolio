@@ -1,107 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--Responsiveness-->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Farrah's Website</title>
-                  
-        <!--Google Fonts API-->
-        <link rel="stylesheet"
-              href="https://fonts.googleapis.com/css?family=Solway:400,700|
+<head>
+  <!--Responsiveness-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Farrah's Website</title>
+
+  <!--Google Fonts API-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Solway:400,700|
                     Source+Code+Pro:200,700&display=swap">
 
-        <!--General CSS-->
-        <link rel="stylesheet" 
-              href="css/style.css">
+  <!--General CSS-->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <!--TOP LOGO-->
+    <div class="logo">
+      <a href="index.html#home"><img src="assets/logo.png" alt=""></a>
+    </div>
+
+    <!--HAMBURGER MENU-->
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="boiga"></span>
+    </button>
+
+    <!--NAV IN HAMBURGER MENU-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+        <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+        <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--PAGE-->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      nichijou <strong>prototype</strong>
+    </h1>
+
+    <p class="section__subtitle section__subtitle--intro">
+      UI Design, illustration</p>
+
+    <img src="assets/booklets/nichijou/selection page.png" alt="fullsize" class="intro__img">
+  </section>
+
+  <div class="portfolio-item-individual">
+    <p> × for: design process × tools: adobe photoshop, invision
+    <p>A simple prototype to show the process of practicing Japanese every day.
+      Check out the live prototype <a href="https://farrahchow716127.invisionapp.com/console/share/UB28KGUMVT"
+        target="_blank" class="fancy-link">here</a>!
+    </p>
     
-      </head>
+  <center>
+    <img src="assets/booklets/nichijou/home.png">
+    <img src="assets/booklets/nichijou/selection page.png">
+    <img src="assets/booklets/nichijou/moon.gif">
+    <img src="assets/booklets/nichijou/fire.gif">
+    <img src="assets/booklets/nichijou/water.gif">
+    <img src="assets/booklets/nichijou/wood.gif">
+    <img src="assets/booklets/nichijou/metal.gif">
+    <img src="assets/booklets/nichijou/earth.gif">
+    <img src="assets/booklets/nichijou/sun.gif">
+  </center>
 
-    <body>
-      <header>
-        <!--TOP LOGO-->
-        <div class="logo">
-          <img src="assets/logo colored.png" alt="">
-        </div>
+    <p>this description is a work in progress. I made this project to lay out my
+      ideas for an app I'd like to have, in this case, a kanji stroke order diagram.
+      The animations were hand drawn in Photoshop,
+      using just a mouse! For this project, we just fleshed out one section, but I would
+      like to revisit this project and fill in the other sections with their respective kanji.
+    </p>
+  </div>
 
-        <!--HAMBURGER MENU-->
-        <button class="nav-toggle" aria-label="toggle navigation">
-          <span class="boiga"></span>
-        </button>
+  <!--FOOTER-->
+  <footer class="contact" id="contact">
+    <h3>Let's talk!</h3>
 
-        <!--NAV IN HAMBURGER MENU-->
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-            <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
-            <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-            <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+    <li class="social-list">
+      <!--EMAIL-->
+      <a class="social-list__link" href="mailto:chow.fa@northeastern.edu" target="_blank">
+        <img src="assets/icons/FA-email.png">
+      </a>
 
-      <!--PAGE-->
-      <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            nichijou <strong>prototype</strong>
-        </h1>
+      <!--GITHUB-->
+      <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
+        <img src="assets/icons/FA-github.png">
+      </a>
 
-        <p class="section__subtitle section__subtitle--intro">
-            UI Design</p>
+      <!--RESUME-->
+      <a class="social-list__link"
+        href="https://drive.google.com/file/d/1HUmX-ldci39KNBUoldrYDmQlSBErQOen/view?usp=sharing" target="_blank">
+        <img src="assets/icons/FA-resume.png">
+      </a>
 
-        <img src="assets/booklets/typeface specimen/assign 9.png" alt="fullsize" class="intro__img">
-      </section>
+      <!--LINKEDIN-->
+      <a class="social-list__link" href="https://linkedin.com/in/farrahchow" target="_blank">
+        <img src="assets/icons/FA-linkedin.png">
+      </a>
 
-      <div class="portfolio-item-individual">
-          <p> × for: design process × tools: adobe photoshop, invision
-              <p>A simple prototype to show the process of practicing Japanese every day.
-                 Check out the live prototype <a href="https://farrahchow716127.invisionapp.com/console/share/UB28KGUMVT" target="_blank">here</a>!
-              </p>
+    </li>
 
-              <img src="assets/booklets/typeface specimen/pic.png">
+    <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
 
-              <p>this description is a work in progress. I made this project to lay out my
-                 ideas for an app I'd like to have.
-              </p>
-      </div>
+  </footer>
 
-      <!--FOOTER-->
-      <footer class="contact" id="contact">
-          <h3>Let's talk!</h3>
+  <!--Run JavaScript-->
+  <script src="js/script.js"></script>
 
-          <li class="social-list">
-            <!--EMAIL-->
-            <a class="social-list__link" href="mailto:chow.fa@northeastern.edu" target="_blank">
-              <img src="assets/icons/FA-email.png">
-            </a>
-
-            <!--GITHUB-->
-            <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
-              <img src="assets/icons/FA-github.png">
-            </a>
-
-            <!--RESUME-->
-            <a class="social-list__link" 
-            href="https://drive.google.com/file/d/1HUmX-ldci39KNBUoldrYDmQlSBErQOen/view?usp=sharing" target="_blank">
-                  <img src="assets/icons/FA-resume.png">
-            </a>
-
-            <!--LINKEDIN-->
-            <a class="social-list__link" href="https://linkedin.com/in/farrahchow" target="_blank">
-              <img src="assets/icons/FA-linkedin.png">
-            </a>              
-
-          </li>
-
-            <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
-
-      </footer>
-
-      <!--Run JavaScript-->
-      <script src="js/script.js"></script>
-
-    </body>
+</body>
 
 </html>
