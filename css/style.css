@@ -132,6 +132,7 @@ strong {
   margin-top: 2em;
   border: none;
   outline: none;
+  margin: 0 auto;
 }
 
 .myBtn:hover {
@@ -535,6 +536,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /*modifies each icon*/
