@@ -467,8 +467,8 @@ header {
 
 .portfolio__item {
   background: var(--clr-accent);
-  flex: 14%;
-  max-width: 14%;
+  flex: calc(100%/2);
+  max-width: 200px;
 }
 
 .portfolio__img {
@@ -478,16 +478,16 @@ header {
 }
 
 @media (max-width: 800px) {
-  .portfolio {
-    flex: 50%;
-    max-width: 50%;
+  .portfolio__item {
+    flex: calc(100%/4);
+    max-width: 25%;
   }
 }
 
 @media (max-width: 600px) {
-  .portfolio {
-    flex: 100%;
-    max-width: 100%;
+  .portfolio__item {
+    flex: calc(100%/3);
+    max-width: 33%;
   }
 }
 
