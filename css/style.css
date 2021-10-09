@@ -132,6 +132,7 @@ strong {
   margin-top: 2em;
   border: none;
   outline: none;
+  box-align: center;
 }
 
 .myBtn:hover {
