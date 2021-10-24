@@ -1,11 +1,9 @@
 /* STYLE GUIDE 
 
   COLORS
-    #FF9EA9    -- pink
-    #FFC59E    -- orange
-    #FFF0C1    -- yellow
-    #85D5C3    -- aqua
+    #85D5C3    -- aqua accent
     #4F5767    -- offblack
+    #FFFFFF    -- white
 
   TYPEFACES
     Solway     -- header text
@@ -166,7 +164,7 @@ h3 {font-size: var(--fs-h3) }
 }
 
 .section__subtitle {
-  margin: 0;
+  margin: 0 1em;
   font-size: var(--fs-h3);
 }
 
@@ -206,7 +204,7 @@ header {
   z-index: 100;
 
   transform: translateX(100%);
-  transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+  transition: transform 350ms cubic-bezier(.5, 0, .5, 1);
 }
 
 /*items inside hamburger menu*/
