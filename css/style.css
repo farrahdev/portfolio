@@ -173,7 +173,7 @@ h3 {font-size: var(--fs-h3) }
 .section__subtitle--about {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-right: 2em;
   padding: .55em;
   font-size: .75em;
@@ -338,7 +338,6 @@ header {
 
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(.../assets/dotboard.png);
   background-size: cover;
   color: var(--clr-light);
   text-align: center;
@@ -354,11 +353,11 @@ header {
   display: block;
   width: 2em;
   height: 1px;
-  margin: 0.5em auto 1em;
+  margin: 0.5em auto 0.5em;
 }
 
 .services {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .service {
@@ -378,7 +377,7 @@ header {
   }
 
   .service + .service {
-    margin-left: 2em;
+    margin-left: 4em;
   }
 }
 
@@ -442,7 +441,8 @@ header {
 .section__subtitle--work {
   color: var(--clr-light);
   font-weight: var(--fw-reg);
-  margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: .5em;
   font-family: var(--ff-secondary);
 }
 
