@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Responsiveness-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Farrah's Website</title>
+                  
+        <!--Google Fonts API-->
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Solway:400,700|
+                    Source+Code+Pro:200,700&display=swap">
+
+        <!--General CSS-->
+        <link rel="stylesheet" 
+              href="css/style.css">
+    
+      </head>
+
+    <body>
+      <header>
+        <!--TOP LOGO-->
+        <div class="logo">
+          <a href="index.html#home"><img src="assets/logo.png" alt=""></a>
+        </div>
+
+        <!--HAMBURGER MENU-->
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="boiga"></span>
+        </button>
+
+        <!--NAV IN HAMBURGER MENU-->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--PAGE-->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            terralove <strong>brand site</strong>
+        </h1>
+
+        <p class="section__subtitle section__subtitle--intro">
+            UI & Brand Design</p>
+
+        <img src="assets/icons/18-terralove-edit.png" alt="fullsize" class="intro__img">
+      </section>
+
+      <div class="portfolio-item-individual">
+          <p>× <a href="https://www.figma.com/file/dnXFogg0JnxKJC5hnrxKfp/artg2400-project---brand-website?node-id=54%3A460"
+            target=_blank class="fancy-link">live preview</a> (press Z to fit screen)
+            <br>× for: interaction design 1
+            <br>× tools: adobe illustrator, figma
+
+            <center>
+              <img src="assets/booklets/terralove/terralove1crop.png">
+              <br></br>
+              <img src="assets/booklets/terralove/terralove2crop.png">
+              <br></br>
+              <img src="assets/booklets/terralove/terralove3crop.png">
+              <br></br>
+              <img src="assets/booklets/terralove/terralove4crop.png">
+              <br></br>
+              <img src="assets/booklets/terralove/terralove5crop.png">
+              <br></br>
+              <img src="assets/booklets/terralove/terralove-color-crop.png">
+              <br></br>
+              <img src="assets/booklets/terralove/terralove-type-crop.png">
+            </center>
+
+              <p>
+                This is a 2 part UI prototype and brand design for a business. My focus was to create a 
+                system of colors, typefaces, and visual elements that invoked the feeling of being environmentally conscious. 
+                For the logo, I used an illustration of a terrarium that I made in
+                Adobe Illustrator. I then created a layout in Figma that covered all the necessary information for the shop's website.
+                Then I used Figma's in-app image properties to manipulate images to fit the brand's purpose and aesthetic.
+              </p>
+      </div>
+
+      <!--FOOTER-->
+      <footer class="contact" id="contact">
+          <h3>Let's talk!</h3>
+
+          <li class="social-list">
+            <!--EMAIL-->
+            <a class="social-list__link" href="mailto:chow.fa@northeastern.edu" target="_blank">
+              <img src="assets/icons/FA-email.png">
+            </a>
+
+            <!--GITHUB-->
+            <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
+              <img src="assets/icons/FA-github.png">
+            </a>
+
+            <!--RESUME-->
+            <a class="social-list__link" 
+            href="assets/resume.pdf" target="_blank">
+                  <img src="assets/icons/FA-resume.png">
+            </a>
+
+            <!--LINKEDIN-->
+            <a class="social-list__link" href="https://linkedin.com/in/farrahchow" target="_blank">
+              <img src="assets/icons/FA-linkedin.png">
+            </a>              
+
+          </li>
+
+            <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
+
+      </footer>
+
+      <!--Run JavaScript-->
+      <script src="js/script.js"></script>
+
+    </body>
+
+</html>

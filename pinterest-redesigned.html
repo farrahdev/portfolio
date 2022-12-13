@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Responsiveness-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Farrah's Website</title>
+                  
+        <!--Google Fonts API-->
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Solway:400,700|
+                    Source+Code+Pro:200,700&display=swap">
+
+        <!--General CSS-->
+        <link rel="stylesheet" 
+              href="css/style.css">
+    
+      </head>
+
+    <body>
+      <header>
+        <!--TOP LOGO-->
+        <div class="logo">
+          <a href="index.html#home"><img src="assets/logo.png" alt=""></a>
+        </div>
+
+        <!--HAMBURGER MENU-->
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="boiga"></span>
+        </button>
+
+        <!--NAV IN HAMBURGER MENU-->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--PAGE-->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            pinterest<strong>redesigned</strong>
+        </h1>
+
+        <p class="section__subtitle section__subtitle--intro">
+            UX / UI Design</p>
+
+        <img src="assets/icons/21-pinterest-edit.png" alt="fullsize" class="intro__img">
+      </section>
+
+      <div class="portfolio-item-individual">
+
+        <p>
+          × <a href="https://www.figma.com/file/RYMTzBOviSNFxZjfUlnvNC/Wireframes?node-id=78%3A562"
+          target=_blank class="fancy-link">live preview</a> 
+          <br>× for: interaction design 1
+          <br>× tools: figma
+        </p>
+              <p>
+                A redesign of Pinterest's mobile application. This group project focused on replacing the app's clunky UI with a more seamless
+                exploratory experience. Shown below is my process book. 
+              </p>
+
+              <center>
+                <!--design thinking process-->
+                <img src="assets/booklets/pinterest/pinterest process book2.png">
+                <br></br>
+                <img src="assets/booklets/pinterest/pinterest process book3.png">
+                <br></br>
+                <img src="assets/booklets/pinterest/pinterest process book4.png">
+                <br></br>
+                <img src="assets/booklets/pinterest/pinterest process book5.png">
+                <br></br>
+                <img src="assets/booklets/pinterest/pinterest process book6.png">
+                <br></br>
+                <img src="assets/booklets/pinterest/pinterest process book7.png">
+              </center>
+
+              <p>
+              Working in a team of 3, I along with my group members utilized the design thinking process to empathize with current Pinterest
+              users' concerns with the app, define our problem statement that will satisfy the interviewed users, ideate a variety of solutions,
+              prototype the solutions in Figma, and test for user feedback in order to keep improving the design. 
+
+              <br></br>
+
+              Our redesigned prototype introduced many new features, such as the manual shuffle button, pin filtering, UI hierarchy overhaul,
+              and improved search functions. 
+              </p>
+      </div>
+
+      <!--FOOTER-->
+      <footer class="contact" id="contact">
+          <h3>Let's talk!</h3>
+
+          <li class="social-list">
+            <!--EMAIL-->
+            <a class="social-list__link" href="mailto:chow.fa@northeastern.edu" target="_blank">
+              <img src="assets/icons/FA-email.png">
+            </a>
+
+            <!--GITHUB-->
+            <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
+              <img src="assets/icons/FA-github.png">
+            </a>
+
+            <!--RESUME-->
+            <a class="social-list__link"  
+            href="assets/resume.pdf" target="_blank">
+                  <img src="assets/icons/FA-resume.png">
+            </a>
+
+            <!--LINKEDIN-->
+            <a class="social-list__link" href="https://linkedin.com/in/farrahchow" target="_blank">
+              <img src="assets/icons/FA-linkedin.png">
+            </a>              
+
+          </li>
+
+            <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
+
+      </footer>
+
+      <!--Run JavaScript-->
+      <script src="js/script.js"></script>
+
+    </body>
+
+</html>

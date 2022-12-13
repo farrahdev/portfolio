@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Responsiveness-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Farrah's Website</title>
+
+  <!--Google Fonts API-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Solway:400,700|
+                    Source+Code+Pro:200,700&display=swap">
+
+  <!--General CSS-->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <!--TOP LOGO-->
+    <div class="logo">
+      <a href="index.html#home"><img src="assets/logo.png" alt=""></a>
+    </div>
+
+    <!--HAMBURGER MENU-->
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="boiga"></span>
+    </button>
+
+    <!--NAV IN HAMBURGER MENU-->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+        <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+        <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--PAGE-->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      (cute)ique <strong>site</strong>
+    </h1>
+
+    <p class="section__subtitle section__subtitle--intro">
+      UX / UI Design</p>
+
+    <img src="assets/icons/23-foodie.png" alt="fullsize" class="intro__img">
+  </section>
+
+  <div class="portfolio-item-individual">
+    <p> x <a target=_blank class="fancy-link" href="https://www.figma.com/proto/sKwXKFUJH6MpZZ3zCTCQZB/FOODIE-mobile-app?node-id=13%3A77&scaling=scale-down&page-id=5%3A5&starting-point-node-id=13%3A77">
+      live preview</a><br>× for: interaction design tools <br>× tools: figma
+    <p>A food tracking app built for mobile.</p>
+    <center>
+      <img src="assets/booklets/foodie/Documentation.png">
+      <br></br>
+
+    </center>
+    <p>Foodie was built with the food consumer in all of us in mind: as a user, what are some tools
+      I can use to turn the frustrations of not remembering my last meal at a place, into excitement
+      and joy to explore local cuisine? This user-friendly application targets 3 main areas of
+      tension when it comes to searching for a meaningful place to eat.<br></br>
+
+      My vision for this app is to be a bright, eye-catching tool that makes the usually overlooked process
+      of picking dinner fun and hassle-free. Utilizing 3d modeled mascots, fluid animations, and 
+      overlayed photos, I turned even the most mundane of activities into something sensory and enjoyable.<br></br>
+
+      This app was designed in Figma and will be released as a fully functional app at a future date.
+  </div>
+
+  <!--FOOTER-->
+  <footer class="contact" id="contact">
+    <h3>Let's talk!</h3>
+
+    <li class="social-list">
+      <!--EMAIL-->
+      <a class="social-list__link" href="mailto:chow.fa@northeastern.edu" target="_blank">
+        <img src="assets/icons/FA-email.png">
+      </a>
+
+      <!--GITHUB-->
+      <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
+        <img src="assets/icons/FA-github.png">
+      </a>
+
+      <!--RESUME-->
+      <a class="social-list__link"
+        href="assets/resume.pdf" target="_blank">
+        <img src="assets/icons/FA-resume.png">
+      </a>
+
+      <!--LINKEDIN-->
+      <a class="social-list__link" href="https://linkedin.com/in/farrahchow" target="_blank">
+        <img src="assets/icons/FA-linkedin.png">
+      </a>
+
+    </li>
+
+    <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
+
+  </footer>
+
+  <!--Run JavaScript-->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
