@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Responsiveness-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Farrah's Website</title>
+                  
+        <!--Google Fonts API-->
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Solway:400,700|
+                    Source+Code+Pro:200,700&display=swap">
+
+        <!--General CSS-->
+        <link rel="stylesheet" 
+              href="css/style.css">
+    
+      </head>
+
+    <body>
+      <header>
+        <!--TOP LOGO-->
+        <div class="logo">
+          <a href="index.html#home"><img src="assets/logo.png" alt=""></a>
+        </div>
+
+        <!--HAMBURGER MENU-->
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="boiga"></span>
+        </button>
+
+        <!--NAV IN HAMBURGER MENU-->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--PAGE-->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            virtual<strong>reality</strong>
+        </h1>
+
+        <p class="section__subtitle section__subtitle--intro">
+            Graphic Design</p>
+
+        <img src="assets/icons/27-virtual-reality.png" alt="fullsize" class="intro__img">
+      </section>
+
+      <div class="portfolio-item-individual">
+          <p> × for: brand and identity design <br>× tools: procreate, figma, adobe indesign
+              <p>This is a project in which I asked myself to explore my interests and create
+                a visual representation in a 12 page zine with 3 chapters.
+              </p>
+
+            <center>
+              <img src="assets/booklets/virtual reality/sketches.png">
+              <br></br>
+              <img src="assets/booklets/virtual reality/Cover.png">
+              <br></br>
+              <img src="assets/booklets/virtual reality/1-2.png">
+              <br></br>
+              <img src="assets/booklets/virtual reality/3-4.png">
+              <br></br>
+              <img src="assets/booklets/virtual reality/5-6.png">
+              <br></br>
+              <img src="assets/booklets/virtual reality/7-8.png">
+              <br></br>
+              <img src="assets/booklets/virtual reality/9-10.png">
+              <br></br>
+            </center>
+
+              <p>
+                In my zine, I explore the interconnecting of virtual + reality in my life as
+                a lover of digital art, photography, design, and technology.
+                The special concept I wanted to hone in on was the modularity 
+                of the printed booklet. The design is intended to encourage the user to flip the 
+                book once they got to the "end",
+                and read "backwards" as they make their way back to page "1". I received a helpful
+                feedback to include a visual indicator to make the direction more obvious - thus
+                adding page numbers in my final version. It was an eventual challenge to prepare
+                the design for printing, but doing so has taught me the correct process needed
+                for booklet printing in InDesign.
+              </p>
+      </div>
+
+      <!--FOOTER-->
+      <footer class="contact" id="contact">
+          <h3>Let's talk!</h3>
+
+          <li class="social-list">
+            <!--EMAIL-->
+            <a class="social-list__link" href="mailto:chow.fa@northeastern.edu" target="_blank">
+              <img src="assets/icons/FA-email.png">
+            </a>
+
+            <!--GITHUB-->
+            <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
+              <img src="assets/icons/FA-github.png">
+            </a>
+
+            <!--RESUME-->
+            <a class="social-list__link" 
+            href="assets/resume.pdf" target="_blank">
+                  <img src="assets/icons/FA-resume.png">
+            </a>
+
+            <!--LINKEDIN-->
+            <a class="social-list__link" href="https://linkedin.com/in/farrahchow" target="_blank">
+              <img src="assets/icons/FA-linkedin.png">
+            </a>              
+
+          </li>
+
+            <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
+
+      </footer>
+
+      <!--Run JavaScript-->
+      <script src="js/script.js"></script>
+
+    </body>
+
+</html>
