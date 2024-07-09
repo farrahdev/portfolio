@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Responsiveness-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Farrah's Website</title>
+                  
+        <!--Google Fonts API-->
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Solway:400,700|
+                    Source+Code+Pro:200,700&display=swap">
+
+        <!--General CSS-->
+        <link rel="stylesheet" 
+              href="css/style.css">
+    
+      </head>
+
+    <body>
+      <header>
+        <!--TOP LOGO-->
+        <div class="logo">
+          <a href="index.html#home"><img src="assets/logo.png" alt=""></a>
+        </div>
+
+        <!--HAMBURGER MENU-->
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="boiga"></span>
+        </button>
+
+        <!--NAV IN HAMBURGER MENU-->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--PAGE-->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            design<strong>challenge</strong>
+        </h1>
+
+        <p class="section__subtitle section__subtitle--intro">
+            Product Design</p>
+
+        <img src="assets/icons/31-deli.png" alt="fullsize" class="intro__img">
+      </section>
+
+      <div class="portfolio-item-individual">
+
+        <p>
+          × for: brand and identity
+          <br>× tools: figma, procreate
+        </p>
+              <p>
+                This is the result of a design challenge from sharpen.design!
+              </p>
+
+              <center>
+                <!--design thinking process-->
+                <img src="assets/booklets/deli design challenge/deli-1.png">
+                <br></br>
+                <img src="assets/booklets/deli design challenge/deli-2.png">
+                <br></br>
+                <img src="assets/booklets/deli design challenge/deli-3.png">
+                <br></br>
+                <img src="assets/booklets/deli design challenge/deli-4.png">
+                <br></br>
+                <img src="assets/booklets/deli design challenge/deli-5.png">
+                <br></br>
+                <img src="assets/booklets/deli design challenge/deli-6.png">
+                <br></br>
+              </center>
+
+              <p>
+                My prompt was to redesign a deli label, paying extra attention to design thinking. 
+                I approached this challenge by thinking of frustrations a customer may have ordering 
+                at a deli. My local deli has a decentralized system where they take orders arbitrarily, 
+                and then completed sandwiches are often mistakenly taken from the person who ordered it.
+                 Creating this system solves a lot of those issues.
+              <br></br>
+              Above I have shown my process and solution to this problem; the customer takes an empty 
+              slip and uses a hole puncher to select their ingredients. They rip off the number tag 
+              and then come back later to exchange the tag for the sandwich - which also eliminates 
+              the need to call for the customer’s name or an unusually long and specific order.
+              </p>
+      </div>
+
+      <!--FOOTER-->
+      <footer class="contact" id="contact">
+          <h3>Let's talk!</h3>
+
+          <li class="social-list">
+            <!--EMAIL-->
+            <a class="social-list__link" href="mailto:chow.fa@northeastern.edu" target="_blank">
+              <img src="assets/icons/FA-email.png">
+            </a>
+
+            <!--GITHUB-->
+            <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
+              <img src="assets/icons/FA-github.png">
+            </a>
+
+            <!--RESUME-->
+            <a class="social-list__link"  
+            href="assets/resume.pdf" target="_blank">
+                  <img src="assets/icons/FA-resume.png">
+            </a>
+
+            <!--LINKEDIN-->
+            <a class="social-list__link" href="https://linkedin.com/in/farrahchow" target="_blank">
+              <img src="assets/icons/FA-linkedin.png">
+            </a>              
+
+          </li>
+
+            <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
+
+      </footer>
+
+      <!--Run JavaScript-->
+      <script src="js/script.js"></script>
+
+    </body>
+
+</html>

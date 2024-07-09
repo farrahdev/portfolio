@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Responsiveness-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Farrah's Website</title>
+                  
+        <!--Google Fonts API-->
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Solway:400,700|
+                    Source+Code+Pro:200,700&display=swap">
+
+        <!--General CSS-->
+        <link rel="stylesheet" 
+              href="css/style.css">
+    
+      </head>
+
+    <body>
+      <header>
+        <!--TOP LOGO-->
+        <div class="logo">
+          <a href="index.html#home"><img src="assets/logo.png" alt=""></a>
+        </div>
+
+        <!--HAMBURGER MENU-->
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="boiga"></span>
+        </button>
+
+        <!--NAV IN HAMBURGER MENU-->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--PAGE-->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            attack on<strong>the capitol</strong>
+        </h1>
+
+        <p class="section__subtitle section__subtitle--intro">
+            UX / UI Design</p>
+
+        <img src="assets/icons/34-capitol.png" alt="fullsize" class="intro__img">
+      </section>
+
+      <div class="portfolio-item-individual">
+
+        <p>
+          × <a href="https://www.figma.com/proto/XzFQbwa0n9RxLNR6u5iYJH/Information-Design-1?page-id=81%3A2&node-id=140-2&
+          viewport=1794%2C422%2C0.09&t=EpdeAKmiOfACainC-1&scaling=min-zoom&starting-point-node-id=140%3A2"
+          target=_blank class="fancy-link">live preview</a> (please press Z to fit to your screen)
+          <br>× for: interaction design 1
+          <br>× tools: figma
+        </p>
+              <p>
+                For a course on information design, I created this interactive web experience to tell viewers the story of the January
+                6th riots on the White House. Ideally viewed on a tablet device in an educational environment, the 
+                purpose of this piece was to show the cause and effect of events in the buildup to the day of the riots. By displaying 
+                this information spatially, chronologically, and categorically, one can analyze and determine which states were most 
+                involved.
+              </p><p>
+                Image 1 is the final design, followed by early explorations in my process.
+              </p>
+
+              <center>
+                <!--design thinking process-->
+                <img src="assets/booklets/attack on the capitol/attack-1.png">
+                <br></br>
+                <img src="assets/booklets/attack on the capitol/attack-2.png">
+                <br></br>
+                <img src="assets/booklets/attack on the capitol/attack-3.png">
+                <br></br>
+                <img src="assets/booklets/attack on the capitol/attack-4.png">
+                <br></br>
+              </center>
+      </div>
+
+      <!--FOOTER-->
+      <footer class="contact" id="contact">
+          <h3>Let's talk!</h3>
+
+          <li class="social-list">
+            <!--EMAIL-->
+            <a class="social-list__link" href="mailto:chow.fa@northeastern.edu" target="_blank">
+              <img src="assets/icons/FA-email.png">
+            </a>
+
+            <!--GITHUB-->
+            <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
+              <img src="assets/icons/FA-github.png">
+            </a>
+
+            <!--RESUME-->
+            <a class="social-list__link"  
+            href="assets/resume.pdf" target="_blank">
+                  <img src="assets/icons/FA-resume.png">
+            </a>
+
+            <!--LINKEDIN-->
+            <a class="social-list__link" href="https://linkedin.com/in/farrahchow" target="_blank">
+              <img src="assets/icons/FA-linkedin.png">
+            </a>              
+
+          </li>
+
+            <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
+
+      </footer>
+
+      <!--Run JavaScript-->
+      <script src="js/script.js"></script>
+
+    </body>
+
+</html>

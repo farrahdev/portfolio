@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Responsiveness-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Farrah's Website</title>
+                  
+        <!--Google Fonts API-->
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=Solway:400,700|
+                    Source+Code+Pro:200,700&display=swap">
+
+        <!--General CSS-->
+        <link rel="stylesheet" 
+              href="css/style.css">
+    
+      </head>
+
+    <body>
+      <header>
+        <!--TOP LOGO-->
+        <div class="logo">
+          <a href="index.html#home"><img src="assets/logo.png" alt=""></a>
+        </div>
+
+        <!--HAMBURGER MENU-->
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="boiga"></span>
+        </button>
+
+        <!--NAV IN HAMBURGER MENU-->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">Expertise</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--PAGE-->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            steam<strong>redesigned</strong>
+        </h1>
+
+        <p class="section__subtitle section__subtitle--intro">
+            UX / UI Design</p>
+
+        <img src="assets/icons/32-steam.png" alt="fullsize" class="intro__img">
+      </section>
+
+      <div class="portfolio-item-individual">
+
+        <p>
+          × <a href="https://www.figma.com/design/Xx5YVU8kIsCh8ES9OiNiaF/Steam-redesign?node-id=29-1764&t=cJrYOMiqpjmKll2i-1"
+          target=_blank class="fancy-link">live preview</a> 
+          <br>× for: interaction design 2
+          <br>× tools: figma
+        </p>
+              <p>
+                <b>To improve a mobile app...</b></p><p>
+                  I chose STEAM, a reputable marketplace for desktop games, and challenged myself to create a mobile interface
+                to elevate the user experience. My challenge was to bring forth an exciting way to complement an existing
+                brand through cleanup of bad features, as well as innovating new ones.
+              </p>
+
+              <center>
+                <!--design thinking process-->
+                <img src="assets/booklets/steam/steam-1.png">
+                <br></br>
+                <img src="assets/booklets/steam/steam-7.png">
+                <br></br>
+                <img src="assets/booklets/steam/steam-8.png">
+                <br></br>
+                <img src="assets/booklets/steam/steam-3.png">
+                <br></br>
+                <img src="assets/booklets/steam/steam-4.png">
+                <br></br>
+                <img src="assets/booklets/steam/steam-5.png">
+                <br></br>
+                <img src="assets/booklets/steam/steam-6.png">
+                <br></br>
+                <img src="assets/booklets/steam/steam-2.png">
+              </center>
+              <p>
+                The old STEAM app was notoriously difficult to message friends with, as well as clunky overall due to a direct import
+                of their website. My app dedicates itself to optimizing userflows while updating the aesthetics to a modern look and feel.
+                Inspired by the layout of Spotify, I created paper prototypes and then translated the designs digitally after
+                receiving feedback from the class. In the final digital prototype, my design cleans up the game browsing and buying experience,
+                while adding an entirely new feature: remotely managing your desktop downloads.
+              </p>
+      </div>
+
+      <!--FOOTER-->
+      <footer class="contact" id="contact">
+          <h3>Let's talk!</h3>
+
+          <li class="social-list">
+            <!--EMAIL-->
+            <a class="social-list__link" href="mailto:chowfunfarrah@gmail.com" target="_blank">
+              <img src="assets/icons/FA-email.png">
+            </a>
+
+            <!--GITHUB-->
+            <a class="social-list__link" href="https://github.com/farrahdev" target="_blank">
+              <img src="assets/icons/FA-github.png">
+            </a>
+
+            <!--RESUME-->
+            <a class="social-list__link"  
+            href="assets/resume.pdf" target="_blank">
+                  <img src="assets/icons/FA-resume.png">
+            </a>
+
+            <!--LINKEDIN-->
+            <a class="social-list__link" href="https://www.linkedin.com/in/farrah-chow-ab7208220/" target="_blank">
+              <img src="assets/icons/FA-linkedin.png">
+            </a>              
+
+          </li>
+
+            <button onclick="topFunction()" id="myBtn" class="myBtn">back to top</button>
+
+      </footer>
+
+      <!--Run JavaScript-->
+      <script src="js/script.js"></script>
+
+    </body>
+
+</html>
